@@ -50,6 +50,9 @@ const Button = styled.button`
 const Controls = styled.nav`
   margin-top: 20px;
   border-radius: 4px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 `;
 
 function App() {
